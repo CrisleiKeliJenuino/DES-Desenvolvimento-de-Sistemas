@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2026/02/27 21:21:04.000.361,=\\srv-arq-0\usuarios\crislei.jenuino\Meus Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/03/02 21:45:34.000.089,=\\srv-arq-0\usuarios\crislei.jenuino\Meus Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/03/02 22:04:47.000.510,\\srv-arq-0\usuarios\crislei.jenuino\Meus Documentos\Embarcadero\Studio\Projects\Unit1.dfm=Z:\Delphi\Aula 2\UntCadCli.dfm</Transaction>
+    <Transaction>2026/03/02 22:04:47.000.510,\\srv-arq-0\usuarios\crislei.jenuino\Meus Documentos\Embarcadero\Studio\Projects\Unit1.pas=Z:\Delphi\Aula 2\UntCadCli.pas</Transaction>
+    <Transaction>2026/03/02 22:05:36.000.415,\\srv-arq-0\usuarios\crislei.jenuino\Meus Documentos\Embarcadero\Studio\Projects\Project1.dproj=Z:\Delphi\Aula 2\PjtCadCli.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

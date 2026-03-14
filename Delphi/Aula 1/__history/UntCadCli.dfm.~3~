@@ -1,0 +1,314 @@
+﻿object FrmCadCli: TFrmCadCli
+  Left = 0
+  Top = 0
+  Caption = 'FrmCadCli'
+  ClientHeight = 471
+  ClientWidth = 749
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+  object LblEndereço: TLabel
+    Left = 32
+    Top = 88
+    Width = 123
+    Height = 37
+    Caption = 'Endere'#231'o :'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LblName: TLabel
+    Left = 32
+    Top = 24
+    Width = 86
+    Height = 37
+    Caption = 'Nome :'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LblNro: TLabel
+    Left = 606
+    Top = 88
+    Width = 32
+    Height = 37
+    Caption = 'N'#186
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LblBairro: TLabel
+    Left = 32
+    Top = 152
+    Width = 83
+    Height = 37
+    Caption = 'Bairro :'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LblCidade: TLabel
+    Left = 401
+    Top = 152
+    Width = 97
+    Height = 37
+    Caption = 'Cidade :'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LblDtNasc: TLabel
+    Left = 35
+    Top = 208
+    Width = 103
+    Height = 37
+    Caption = 'Dt.Nasc.:'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LblEstado: TLabel
+    Left = 405
+    Top = 208
+    Width = 93
+    Height = 37
+    Caption = 'Estado :'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LblCpf: TLabel
+    Left = 35
+    Top = 264
+    Width = 58
+    Height = 37
+    Caption = 'CPF :'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LblRg: TLabel
+    Left = 386
+    Top = 264
+    Width = 48
+    Height = 37
+    Caption = 'RG :'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+  end
+  object LblObs: TLabel
+    Left = 35
+    Top = 320
+    Width = 152
+    Height = 37
+    Caption = 'Observa'#231#227'o: '
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+  end
+  object EdtNome: TEdit
+    Left = 124
+    Top = 34
+    Width = 590
+    Height = 29
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+  end
+  object EdtEnd: TEdit
+    Left = 161
+    Top = 98
+    Width = 439
+    Height = 29
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+  end
+  object EdtNro: TEdit
+    Left = 644
+    Top = 98
+    Width = 69
+    Height = 29
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+  end
+  object EdtBairro: TEdit
+    Left = 121
+    Top = 162
+    Width = 274
+    Height = 29
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+  end
+  object EdtCidade: TEdit
+    Left = 504
+    Top = 162
+    Width = 210
+    Height = 29
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+  end
+  object EdtCpf: TEdit
+    Left = 99
+    Top = 274
+    Width = 274
+    Height = 29
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 5
+  end
+  object EdtRg: TEdit
+    Left = 440
+    Top = 274
+    Width = 274
+    Height = 29
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 6
+  end
+  object TMemo
+    Left = 193
+    Top = 320
+    Width = 521
+    Height = 89
+    TabOrder = 7
+  end
+  object DTPDataNasc: TDateTimePicker
+    Left = 144
+    Top = 222
+    Width = 186
+    Height = 23
+    Date = 46080.000000000000000000
+    Time = 0.933695081017504000
+    TabOrder = 8
+  end
+  object CBEstado: TComboBox
+    Left = 504
+    Top = 223
+    Width = 145
+    Height = 23
+    TabOrder = 9
+  end
+  object Salvar: TButton
+    Left = 48
+    Top = 424
+    Width = 90
+    Height = 30
+    Caption = 'Salvar'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 10
+  end
+  object BtnEditar: TButton
+    Left = 250
+    Top = 424
+    Width = 90
+    Height = 30
+    Caption = 'Editar'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 11
+  end
+  object Button1: TButton
+    Left = 425
+    Top = 424
+    Width = 90
+    Height = 30
+    Caption = 'Deletar'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 12
+  end
+  object BtnFechar: TButton
+    Left = 602
+    Top = 424
+    Width = 90
+    Height = 30
+    Caption = 'Fechar'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 13
+  end
+end
