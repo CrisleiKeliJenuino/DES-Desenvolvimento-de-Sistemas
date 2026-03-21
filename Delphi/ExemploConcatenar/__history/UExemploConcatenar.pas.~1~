@@ -1,0 +1,30 @@
+unit UExemploConcatenar;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TfrmExemplo = class(TForm)
+    lblSobrenome: TLabel;
+    lblNomeCompleto: TLabel;
+    edtNome: TEdit;
+    edtSobrenome: TEdit;
+    lblNome: TLabel;
+    btnNomeCompleto: TButton;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmExemplo: TfrmExemplo;
+
+implementation
+
+{$R *.dfm}
+
+end.

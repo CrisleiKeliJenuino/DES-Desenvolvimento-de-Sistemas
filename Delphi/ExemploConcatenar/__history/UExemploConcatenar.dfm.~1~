@@ -1,0 +1,93 @@
+object frmExemplo: TfrmExemplo
+  Left = 0
+  Top = 0
+  Caption = 'frmExemplo'
+  ClientHeight = 441
+  ClientWidth = 624
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+  object lblSobrenome: TLabel
+    Left = 24
+    Top = 125
+    Width = 137
+    Height = 37
+    Caption = 'Sobrenome'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lblNomeCompleto: TLabel
+    Left = 224
+    Top = 360
+    Width = 198
+    Height = 37
+    Caption = 'Nome Completo'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lblNome: TLabel
+    Left = 24
+    Top = 46
+    Width = 73
+    Height = 37
+    Caption = 'Nome'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+  end
+  object edtNome: TEdit
+    Left = 184
+    Top = 61
+    Width = 377
+    Height = 29
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+  end
+  object edtSobrenome: TEdit
+    Left = 184
+    Top = 140
+    Width = 377
+    Height = 29
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+  end
+  object btnNomeCompleto: TButton
+    Left = 144
+    Top = 232
+    Width = 339
+    Height = 81
+    Caption = 'Exibir Nome Completo'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+  end
+end
