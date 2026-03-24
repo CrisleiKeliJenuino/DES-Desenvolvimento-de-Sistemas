@@ -1,0 +1,1 @@
+edttotal.text :=inttostr( (strtoint(edtn1.Text)) + (strtoint(edtn2.Text)));
