@@ -1,0 +1,133 @@
+object frmSoma: TfrmSoma
+  Left = 0
+  Top = 0
+  Caption = 'frmSoma'
+  ClientHeight = 551
+  ClientWidth = 624
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+  object lbln1: TLabel
+    Left = 32
+    Top = 48
+    Width = 143
+    Height = 38
+    Caption = 'N'#250'mero 1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -33
+    Font.Name = 'SansSerif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lbln2: TLabel
+    Left = 32
+    Top = 207
+    Width = 143
+    Height = 38
+    Caption = 'N'#250'mero 2'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -33
+    Font.Name = 'SansSerif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lblTotal: TLabel
+    Left = 103
+    Top = 421
+    Width = 72
+    Height = 38
+    Caption = 'Total'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -33
+    Font.Name = 'SansSerif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lblSinalMais: TLabel
+    Left = 352
+    Top = 112
+    Width = 31
+    Height = 62
+    Caption = '+'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -53
+    Font.Name = 'SansSerif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object lblSubtrai: TLabel
+    Left = 444
+    Top = 96
+    Width = 29
+    Height = 62
+    Caption = '_'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -53
+    Font.Name = 'SansSerif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object edtn1: TEdit
+    Left = 352
+    Top = 51
+    Width = 121
+    Height = 39
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'SansSerif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+  end
+  object edtn2: TEdit
+    Left = 352
+    Top = 206
+    Width = 121
+    Height = 39
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'SansSerif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+  end
+  object edtTotal: TEdit
+    Left = 352
+    Top = 424
+    Width = 121
+    Height = 39
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'SansSerif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+  end
+  object btnSoma: TButton
+    Left = 376
+    Top = 304
+    Width = 75
+    Height = 41
+    Caption = '='
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -53
+    Font.Name = 'SansSerif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+    OnClick = btnSomaClick
+  end
+end

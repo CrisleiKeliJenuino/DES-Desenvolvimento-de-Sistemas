@@ -1,0 +1,32 @@
+unit USoma;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TfrmSoma = class(TForm)
+    lbln1: TLabel;
+    lbln2: TLabel;
+    lblTotal: TLabel;
+    edtn1: TEdit;
+    Edit2: TEdit;
+    edtnTotal: TEdit;
+    lblSinalMais: TLabel;
+    btnSoma: TButton;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmSoma: TfrmSoma;
+
+implementation
+
+{$R *.dfm}
+
+end.

@@ -1,0 +1,50 @@
+unit USoma;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls;
+
+type
+  TfrmSoma = class(TForm)
+    lbln1: TLabel;
+    lbln2: TLabel;
+    lblTotal: TLabel;
+    edtn1: TEdit;
+    edtn2: TEdit;
+    edtnTotal: TEdit;
+    lblSinalMais: TLabel;
+    btnSoma: TButton;
+    procedure edtn1Change(Sender: TObject);
+    procedure edtn2Change(Sender: TObject);
+    procedure btnSomaClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmSoma: TfrmSoma;
+
+implementation
+
+{$R *.dfm}
+
+procedure TfrmSoma.edtn2Change(Sender: TObject);
+begin
+edtn2.Text := Caption;
+end;
+
+procedure TfrmSoma.btnSomaClick(Sender: TObject);
+begin
+btnSoma.Caption := edtn1.text + edtn2.Text;
+end;
+
+procedure TfrmSoma.edtn1Change(Sender: TObject);
+begin
+edtn1.Text := Caption;
+end;
+
+end.
