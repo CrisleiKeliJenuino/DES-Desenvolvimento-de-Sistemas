@@ -16,6 +16,7 @@ type
     edtTotal: TEdit;
     lblSinalMais: TLabel;
     btnSoma: TButton;
+    lblSubtrai: TLabel;
     procedure btnSomaClick(Sender: TObject);
   private
     { Private declarations }

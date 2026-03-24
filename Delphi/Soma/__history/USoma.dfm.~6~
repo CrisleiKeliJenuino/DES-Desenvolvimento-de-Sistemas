@@ -51,11 +51,24 @@ object frmSoma: TfrmSoma
     ParentFont = False
   end
   object lblSinalMais: TLabel
-    Left = 400
+    Left = 352
     Top = 112
     Width = 31
     Height = 62
     Caption = '+'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -53
+    Font.Name = 'SansSerif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object lblSubtrai: TLabel
+    Left = 444
+    Top = 96
+    Width = 29
+    Height = 62
+    Caption = '_'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -53
