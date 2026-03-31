@@ -13,16 +13,19 @@ type
     lblTotal: TLabel;
     edtn1: TEdit;
     edtn2: TEdit;
-    edtnTotal: TEdit;
+    edtTotal: TEdit;
     lblSinalMais: TLabel;
     btnSoma: TButton;
-    procedure edtn1Change(Sender: TObject);
-    procedure edtn2Change(Sender: TObject);
+    Button1: TButton;
+    Button2: TButton;
+    Button3: TButton;
     procedure btnSomaClick(Sender: TObject);
   private
     { Private declarations }
   public
-    { Public declarations }
+    var
+     n1, n2 : double;
+     total: string;
   end;
 
 var
@@ -32,19 +35,27 @@ implementation
 
 {$R *.dfm}
 
-procedure TfrmSoma.edtn2Change(Sender: TObject);
-begin
-edtn2.Text := Caption;
-end;
-
 procedure TfrmSoma.btnSomaClick(Sender: TObject);
 begin
-btnSoma.Caption := edtn1.text + edtn2.Text;
-end;
+  n1 := (strtofloat(edtn1.Text));
+  n2 := (strtofloat(edtn2.Text));
+  total := floattostr(n1 + n2);
+  edttotal.Text :=(total);
 
-procedure TfrmSoma.edtn1Change(Sender: TObject);
+{var
+n1: integer;
+n2: integer;
+total: string;
+
 begin
-edtn1.Text := Caption;
+  n1:= (strtoint(edtn1.Text));
+  n2:= (strtoint(edtn2.Text));
+  total := inttostr(n1 + n2);
+  edttotal.text :=(total); }
+
+  //Modo sem váriavel
+  //edttotal.text :=inttostr( (strtoint(edtn1.Text)) + (strtoint(edtn2.Text)));
+
 end;
 
 end.

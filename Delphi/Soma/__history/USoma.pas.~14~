@@ -14,14 +14,12 @@ type
     edtn1: TEdit;
     edtn2: TEdit;
     edtTotal: TEdit;
+    lblSinalMais: TLabel;
     btnSoma: TButton;
     btnSub: TButton;
-    btnMult: TButton;
+    btnMultip: TButton;
     btnDiv: TButton;
     procedure btnSomaClick(Sender: TObject);
-    procedure btnSubClick(Sender: TObject);
-    procedure btnMultClick(Sender: TObject);
-    procedure btnDivClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -36,24 +34,6 @@ var
 implementation
 
 {$R *.dfm}
-
-procedure TfrmSoma.btnDivClick(Sender: TObject);
-begin
-  n1 := (strtofloat(edtn1.Text));
-  n2 := (strtofloat(edtn2.Text));
-  total := floattostr(n1 / n2);
-  edttotal.Text :=(total);
-
-end;
-
-procedure TfrmSoma.btnMultClick(Sender: TObject);
-begin
-  n1 := (strtofloat(edtn1.Text));
-  n2 := (strtofloat(edtn2.Text));
-  total := floattostr(n1 * n2);
-  edttotal.Text :=(total);
-
-end;
 
 procedure TfrmSoma.btnSomaClick(Sender: TObject);
 begin
@@ -75,15 +55,6 @@ begin
 
   //Modo sem váriavel
   //edttotal.text :=inttostr( (strtoint(edtn1.Text)) + (strtoint(edtn2.Text)));
-
-end;
-
-procedure TfrmSoma.btnSubClick(Sender: TObject);
-begin
-  n1 := (strtofloat(edtn1.Text));
-  n2 := (strtofloat(edtn2.Text));
-  total := floattostr(n1 - n2);
-  edttotal.Text :=(total);
 
 end;
 

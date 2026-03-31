@@ -2,9 +2,9 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2026/02/27 21:21:04.000.361,=\\srv-arq-0\usuarios\crislei.jenuino\Meus Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2026/03/23 21:24:21.551,=\\srv-arq-0\usuarios\crislei.jenuino\Meus Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2026/03/23 21:34:35.034,Z:\DES-Desenvolvimento-de-Sistemas\Delphi\Soma\USoma.dfm=\\srv-arq-0\usuarios\crislei.jenuino\Meus Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2026/03/23 21:34:35.034,Z:\DES-Desenvolvimento-de-Sistemas\Delphi\Soma\USoma.pas=\\srv-arq-0\usuarios\crislei.jenuino\Meus Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2026/03/23 21:34:45.876,Z:\DES-Desenvolvimento-de-Sistemas\Delphi\Soma\PjtSoma.dproj=\\srv-arq-0\usuarios\crislei.jenuino\Meus Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2026/03/23 21:24:21.000.551,=\\srv-arq-0\usuarios\crislei.jenuino\Meus Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/03/23 21:34:35.000.034,\\srv-arq-0\usuarios\crislei.jenuino\Meus Documentos\Embarcadero\Studio\Projects\Unit1.dfm=Z:\DES-Desenvolvimento-de-Sistemas\Delphi\Soma\USoma.dfm</Transaction>
+    <Transaction>2026/03/23 21:34:35.000.034,\\srv-arq-0\usuarios\crislei.jenuino\Meus Documentos\Embarcadero\Studio\Projects\Unit1.pas=Z:\DES-Desenvolvimento-de-Sistemas\Delphi\Soma\USoma.pas</Transaction>
+    <Transaction>2026/03/23 21:34:45.000.876,\\srv-arq-0\usuarios\crislei.jenuino\Meus Documentos\Embarcadero\Studio\Projects\Project1.dproj=Z:\DES-Desenvolvimento-de-Sistemas\Delphi\Soma\PjtSoma.dproj</Transaction>
   </Transactions>
 </BorlandProject>

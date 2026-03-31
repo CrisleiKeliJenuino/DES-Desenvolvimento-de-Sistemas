@@ -26,7 +26,7 @@ object frmSoma: TfrmSoma
   end
   object lbln2: TLabel
     Left = 32
-    Top = 151
+    Top = 207
     Width = 143
     Height = 38
     Caption = 'N'#250'mero 2'
@@ -50,6 +50,19 @@ object frmSoma: TfrmSoma
     Font.Style = []
     ParentFont = False
   end
+  object lblSinalMais: TLabel
+    Left = 400
+    Top = 304
+    Width = 31
+    Height = 62
+    Caption = '='
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -53
+    Font.Name = 'SansSerif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
   object edtn1: TEdit
     Left = 352
     Top = 51
@@ -65,7 +78,7 @@ object frmSoma: TfrmSoma
   end
   object edtn2: TEdit
     Left = 352
-    Top = 166
+    Top = 206
     Width = 121
     Height = 39
     Font.Charset = DEFAULT_CHARSET
@@ -90,27 +103,25 @@ object frmSoma: TfrmSoma
     TabOrder = 2
   end
   object btnSoma: TButton
-    Left = 80
-    Top = 248
-    Width = 81
-    Height = 65
-    BiDiMode = bdLeftToRight
+    Left = 200
+    Top = 120
+    Width = 75
+    Height = 41
     Caption = '+'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -53
     Font.Name = 'SansSerif'
     Font.Style = []
-    ParentBiDiMode = False
     ParentFont = False
     TabOrder = 3
     OnClick = btnSomaClick
   end
   object btnSub: TButton
-    Left = 215
-    Top = 248
-    Width = 90
-    Height = 65
+    Left = 312
+    Top = 120
+    Width = 75
+    Height = 41
     Caption = '-'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -119,14 +130,14 @@ object frmSoma: TfrmSoma
     Font.Style = []
     ParentFont = False
     TabOrder = 4
-    OnClick = btnSubClick
+    OnClick = btnSomaClick
   end
-  object btnMult: TButton
-    Left = 352
-    Top = 248
-    Width = 89
-    Height = 65
-    Caption = '*'
+  object btnMultip: TButton
+    Left = 424
+    Top = 120
+    Width = 75
+    Height = 41
+    Caption = 'x'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
     Font.Height = -53
@@ -134,13 +145,13 @@ object frmSoma: TfrmSoma
     Font.Style = []
     ParentFont = False
     TabOrder = 5
-    OnClick = btnMultClick
+    OnClick = btnSomaClick
   end
   object btnDiv: TButton
-    Left = 496
-    Top = 248
+    Left = 533
+    Top = 120
     Width = 75
-    Height = 65
+    Height = 41
     Caption = '/'
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText
@@ -149,6 +160,6 @@ object frmSoma: TfrmSoma
     Font.Style = []
     ParentFont = False
     TabOrder = 6
-    OnClick = btnDivClick
+    OnClick = btnSomaClick
   end
 end
