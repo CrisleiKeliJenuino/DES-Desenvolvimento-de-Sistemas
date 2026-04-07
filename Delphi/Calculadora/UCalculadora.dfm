@@ -1,0 +1,184 @@
+object frmSoma: TfrmSoma
+  Left = 0
+  Top = 0
+  Caption = 'frmSoma'
+  ClientHeight = 670
+  ClientWidth = 624
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+  object lbln1: TLabel
+    Left = 32
+    Top = 48
+    Width = 143
+    Height = 38
+    Caption = 'N'#250'mero 1'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -33
+    Font.Name = 'SansSerif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lbln2: TLabel
+    Left = 32
+    Top = 151
+    Width = 143
+    Height = 38
+    Caption = 'N'#250'mero 2'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -33
+    Font.Name = 'SansSerif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object lblTotal: TLabel
+    Left = 103
+    Top = 421
+    Width = 72
+    Height = 38
+    Caption = 'Total'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -33
+    Font.Name = 'SansSerif'
+    Font.Style = []
+    ParentFont = False
+  end
+  object edtn1: TEdit
+    Left = 352
+    Top = 51
+    Width = 121
+    Height = 39
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'SansSerif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+  end
+  object edtn2: TEdit
+    Left = 352
+    Top = 166
+    Width = 121
+    Height = 39
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'SansSerif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 1
+  end
+  object edtTotal: TEdit
+    Left = 352
+    Top = 424
+    Width = 121
+    Height = 39
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = 'SansSerif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+  end
+  object btnSoma: TButton
+    Left = 80
+    Top = 248
+    Width = 81
+    Height = 65
+    BiDiMode = bdLeftToRight
+    Caption = '+'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -53
+    Font.Name = 'SansSerif'
+    Font.Style = []
+    ParentBiDiMode = False
+    ParentFont = False
+    TabOrder = 3
+    OnClick = btnSomaClick
+  end
+  object btnSub: TButton
+    Left = 215
+    Top = 248
+    Width = 90
+    Height = 65
+    Caption = '-'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -53
+    Font.Name = 'SansSerif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+    OnClick = btnSubClick
+  end
+  object btnMult: TButton
+    Left = 352
+    Top = 248
+    Width = 89
+    Height = 65
+    Caption = '*'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -53
+    Font.Name = 'SansSerif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 5
+    OnClick = btnMultClick
+  end
+  object btnDiv: TButton
+    Left = 504
+    Top = 248
+    Width = 75
+    Height = 65
+    Caption = '/'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -53
+    Font.Name = 'SansSerif'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 6
+    OnClick = btnDivClick
+  end
+  object btnDv: TButton
+    Left = 103
+    Top = 568
+    Width = 131
+    Height = 65
+    Caption = 'Div'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -53
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 7
+    OnClick = btnDvClick
+  end
+  object btnMod: TButton
+    Left = 368
+    Top = 568
+    Width = 137
+    Height = 65
+    Caption = 'Mod'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -53
+    Font.Name = 'Segoe UI'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 8
+    OnClick = btnModClick
+  end
+end

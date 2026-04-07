@@ -1,8 +1,8 @@
-program PjtSoma;
+program PjtCalculadora;
 
 uses
   Vcl.Forms,
-  UCalculadora in '..\Calculadora\UCalculadora.pas' {frmSoma};
+  UCalculadora in 'UCalculadora.pas' {frmSoma};
 
 {$R *.res}
 

@@ -2,7 +2,7 @@ program PjtSoma;
 
 uses
   Vcl.Forms,
-  UCalculadora in '..\Calculadora\UCalculadora.pas' {frmSoma};
+  USoma in 'USoma.pas' {frmSoma};
 
 {$R *.res}
 
