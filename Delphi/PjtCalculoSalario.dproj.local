@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2026/04/10 22:00:36.000.411,=\\srv-arq-0\usuarios\crislei.jenuino\Meus Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/04/13 21:25:29.000.235,=\\srv-arq-0\usuarios\crislei.jenuino\Meus Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2026/04/13 22:39:02.000.084,\\srv-arq-0\usuarios\crislei.jenuino\Meus Documentos\Embarcadero\Studio\Projects\Unit1.dfm=Z:\DES-Desenvolvimento-de-Sistemas\Delphi\UntCalculoSalario.dfm</Transaction>
+    <Transaction>2026/04/13 22:39:02.000.084,\\srv-arq-0\usuarios\crislei.jenuino\Meus Documentos\Embarcadero\Studio\Projects\Unit1.pas=Z:\DES-Desenvolvimento-de-Sistemas\Delphi\UntCalculoSalario.pas</Transaction>
+    <Transaction>2026/04/13 22:39:12.000.279,\\srv-arq-0\usuarios\crislei.jenuino\Meus Documentos\Embarcadero\Studio\Projects\Project1.dproj=Z:\DES-Desenvolvimento-de-Sistemas\Delphi\PjtCalculoSalario.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
