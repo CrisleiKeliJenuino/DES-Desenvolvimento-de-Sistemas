@@ -47,15 +47,37 @@ Durante as aulas são abordados temas como:
 
 DES-Desenvolvimento-de-Sistemas
 │
-├── aula1
-├── aula2
-├── aula3
-├── exercicios
-├── projetos
+├── Apostilas/
+├── Delphi/
+│   ├── Aula 1/
+│   ├── Aula 2/
+│   ├── ExemploVariaveis/
+│   ├── ExemploConcatenar/
+│   ├── Soma/
+│   ├── Calculadora/
+│   ├── Projetos/
+│   │   └── projeto01/
+│   └── PjtCalculoSalario.*
+├── Atividade Turma B - Crislei.docx
 └── README.md
 
 
 Cada pasta contém exemplos e atividades desenvolvidas durante as aulas.
+
+---
+
+## ✅ Exercícios Propostos Atualizados
+
+Exercícios e projetos já atualizados no repositório:
+
+- **Aula 1**: Cadastro de cliente (`PjtCadCli`) e projeto base (`Project1`)
+- **Aula 2**: Continuação do cadastro de cliente (`PjtCadCli`)
+- **ExemploVariaveis**: uso de variáveis e tipos em Object Pascal
+- **ExemploConcatenar**: concatenação de textos e entrada de dados
+- **Soma**: soma de 2 números com interface gráfica
+- **Calculadora**: operações matemáticas básicas
+- **Projeto 01** (`Projetos/projeto01`): mensagem em formulário (`PjtMensagem`)
+- **Projeto principal na pasta Delphi**: cálculo de salário (`PjtCalculoSalario`)
 
 ---
 
