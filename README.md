@@ -45,6 +45,7 @@ Durante as aulas são abordados temas como:
 
 ## 📂 Estrutura do Repositório
 
+```
 DES-Desenvolvimento-de-Sistemas
 │
 ├── Apostilas/
@@ -60,7 +61,7 @@ DES-Desenvolvimento-de-Sistemas
 │   └── PjtCalculoSalario.*
 ├── Atividade Turma B - Crislei.docx
 └── README.md
-
+```
 
 Cada pasta contém exemplos e atividades desenvolvidas durante as aulas.
 
